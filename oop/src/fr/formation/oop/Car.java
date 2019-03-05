@@ -1,6 +1,8 @@
 package fr.formation.oop;
 
-public class Car extends AbstractVehicle {
+import fe.simplon.oop.tp.AbstractUpperTwoWheels;
+
+public class Car extends AbstractUpperTwoWheels {
 
     protected Car(String color) {
 	super(color);

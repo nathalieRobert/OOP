@@ -1,6 +1,8 @@
 package fr.formation.oop;
 
-public class Bus extends AbstractVehicle {
+import fe.simplon.oop.tp.AbstractUpperTwoWheels;
+
+public class Bus extends AbstractUpperTwoWheels {
 
     protected Bus(String color) {
 	super(color);

@@ -1,9 +1,8 @@
 package fr.formation.oop;
 
 
-public class Motorbike extends AbstractVehicle{
-    
-    
+public class Motorbike extends AbstractTwoWheeledVehicle{
+  
 
     protected Motorbike(String color) {
 	super(color);
@@ -14,10 +13,10 @@ public class Motorbike extends AbstractVehicle{
 	return 2;
     }
 
-    @Override
-    public int wheels() {
-	return 2;
-    }
     
+
+    
+
+
   
 }
